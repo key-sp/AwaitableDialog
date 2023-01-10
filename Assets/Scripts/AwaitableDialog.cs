@@ -13,8 +13,6 @@ public class AwaitableDialog : MonoBehaviour
     [SerializeField] private GameObject yesButton;
     [SerializeField] private GameObject noButton;
 
-    private CancellationTokenSource tokenSource;
-
     private ObservableEventTrigger backgroundImageTrigger;
     private ObservableEventTrigger dialogCloseButtonTrigger;
     private ObservableEventTrigger yesButtonTrigger;

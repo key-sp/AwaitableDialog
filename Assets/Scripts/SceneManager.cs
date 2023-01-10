@@ -15,7 +15,6 @@ public class SceneManager : MonoBehaviour
     [SerializeField] private GameObject awaitableDialogOpenButton;
     [SerializeField] private Text clickedButtonNameText;
 
-    private CancellationTokenSource tokenSource;
     private ObservableEventTrigger awaitableDialogOpenButtonTrigger;
 
     private void Start()
